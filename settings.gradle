@@ -1,0 +1,4 @@
+
+rootProject.name = "flowbus"
+include ':app'
+include ':lib'
