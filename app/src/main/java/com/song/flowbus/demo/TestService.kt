@@ -1,11 +1,13 @@
-package com.cmos.flowbus.demo
+package com.song.flowbus.demo
 
 import android.app.Service
 import android.content.Intent
 import android.os.IBinder
-import com.cmos.flowbus.BusRegistry
-import com.cmos.flowbus.FlowBus
-import com.cmos.flowbus.annotation.EventReceiver
+import com.song.flowbus.BusRegistry
+import com.song.flowbus.FlowBus
+import com.song.flowbus.annotation.EventReceiver
+import com.song.flowbus.demo.TestEvent
+import com.song.flowbus.demo.logIt
 
 class TestService : Service(), BusRegistry {
     override fun onBind(intent: Intent?): IBinder? {

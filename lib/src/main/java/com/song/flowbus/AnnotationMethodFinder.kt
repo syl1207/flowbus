@@ -1,6 +1,6 @@
-package com.cmos.flowbus
+package com.song.flowbus
 
-import com.cmos.flowbus.annotation.EventReceiver
+import com.song.flowbus.annotation.EventReceiver
 import java.util.concurrent.ConcurrentHashMap
 
 object AnnotationMethodFinder {

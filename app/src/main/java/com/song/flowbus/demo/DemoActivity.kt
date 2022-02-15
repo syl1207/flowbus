@@ -1,9 +1,9 @@
-package com.cmos.flowbus.demo
+package com.song.flowbus.demo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.cmos.flowbus.CallBack
-import com.cmos.flowbus.registerSingEvent
+import com.song.flowbus.CallBack
+import com.song.flowbus.registerSingEvent
 
 class DemoActivity :AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.cmos.flowbus.demo
+package com.song.flowbus.demo
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,14 +6,11 @@ import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.lifecycleScope
-import com.cmos.flowbus.AnnotationMethodFinder
-import com.cmos.flowbus.CallBack
-import com.cmos.flowbus.FlowBus
-import com.cmos.flowbus.annotation.EventReceiver
-import com.cmos.flowbus.registerSingEvent
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
+import com.song.flowbus.AnnotationMethodFinder
+import com.song.flowbus.CallBack
+import com.song.flowbus.FlowBus
+import com.song.flowbus.annotation.EventReceiver
+import com.song.flowbus.registerSingEvent
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

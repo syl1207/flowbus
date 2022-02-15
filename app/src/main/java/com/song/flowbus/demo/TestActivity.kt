@@ -1,10 +1,10 @@
-package com.cmos.flowbus.demo
+package com.song.flowbus.demo
 
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.cmos.flowbus.FlowBus
-import com.cmos.flowbus.annotation.EventReceiver
+import com.song.flowbus.FlowBus
+import com.song.flowbus.annotation.EventReceiver
 
 class TestActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
